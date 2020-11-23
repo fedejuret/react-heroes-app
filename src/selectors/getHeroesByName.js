@@ -2,7 +2,7 @@ const { heroes } = require("../data/heroes");
 
 export const getHeroesByName = ( name = '' ) => {
 
-    if(name == ''){
+    if(name === ''){
         return [];
     }
 
