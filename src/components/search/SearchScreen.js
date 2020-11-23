@@ -27,7 +27,7 @@ export const SearchScreen = ({ history }) => {
     const handleSearch = (event) => {
         event.preventDefault();
 
-        if (searchText != '') {
+        if (searchText !== '') {
 
             history.push(`?q=${searchText}`);
         }
